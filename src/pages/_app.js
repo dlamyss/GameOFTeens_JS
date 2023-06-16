@@ -1,4 +1,4 @@
-import Nav from '@/components/navigation';
+import Nav from '@/components/Nav/Nav';
 import '@/styles/Nav.css';
 import '@/styles/globals.css';
 import '@/styles/style.css';
