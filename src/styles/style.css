@@ -10,4 +10,82 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.overlay {
+    margin-top: 91px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.text-container {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+.title-mainpage {
+    width: 848px;
+    height: 125.67px;
+    left: 231px;
+    top: 315px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #13adb7;
+}
+.subtitle-mainpage {
+    margin: 39px auto 39px auto;
+    width: 630px;
+    height: 23.81px;
+    left: 340px;
+    top: 480px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #e9eceb;
+}
+.invest-button {
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+
+    width: 230px;
+    height: 50.51px;
+    left: calc(50% - 230px / 2);
+    top: calc(50% - 50.51px / 2 - 1092.74px);
+
+    border: none;
+    background: #13adb7;
+    border-radius: 45px;
+}
+
+.invest-button a {
+    text-decoration: none;
+    width: 145px;
+    height: 17px;
+    left: 32px;
+    top: 16.54px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #e4e4e4;
 }
