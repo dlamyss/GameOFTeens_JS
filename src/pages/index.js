@@ -1,6 +1,2 @@
-function Home() {
-  return (
-    <div>index</div>
-  )
-}
-export default Home
+function Home() {}
+export default Home;
