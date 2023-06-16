@@ -22,7 +22,7 @@ function Home() {
                     Станьте частиною прориву та здійсніть чиюсь мрію.
                 </h4>
                 <button className="invest-button">
-                    <Link href={'/'}>Інвестувати</Link>
+                    <Link href={'/projects'}>Інвестувати</Link>
                 </button>
             </div>
         </>
