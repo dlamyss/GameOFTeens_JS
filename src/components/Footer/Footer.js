@@ -33,11 +33,10 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="contactDiv">
-                    <h1>GoITeensLab</h1>
-                    <ul>
-                        <li>Telegram: @Artemis_Vainhtein</li>
-                        <li>Gmail: artemka7.av@gmail.com</li>
-                    </ul>
+                    <h2>GoITeensLab</h2>
+
+                    <p>Telegram: @Artemis_Vainhtein</p>
+                    <p>Gmail: artemka7.av@gmail.com</p>
                 </div>
             </footer>
         </div>

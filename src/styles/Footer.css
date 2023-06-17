@@ -47,7 +47,7 @@
     text-align: right;
 }
 
-.contactDiv h1 {
+.contactDiv h2 {
     left: 960px;
     top: 3053px;
 
@@ -63,7 +63,7 @@
     color: #e9eceb;
 }
 
-.contactDiv li {
+.contactDiv p {
     width: 254.86px;
     height: 30px;
     left: 944px;
