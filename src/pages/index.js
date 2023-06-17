@@ -15,19 +15,19 @@ function Home() {
                 />
             </div>
             <div className="text-container">
-                <h1 className="title-mainpage">
+                <h2 className="title-mainpage">
                     Інвестуй в стартап твого майбутнього
-                </h1>
-                <h4 className="subtitle-mainpage">
+                </h2>
+                <p className="subtitle-mainpage">
                     Станьте частиною прориву та здійсніть чиюсь мрію.
-                </h4>
+                </p>
                 <button className="invest-button">
                     <Link href={'/projects'}>Інвестувати</Link>
                 </button>
             </div>
             <div className="messageBlocks">
                 <div className="messageBlock">
-                    <h1>Що таке GoITeensLab?</h1>
+                    <h2 className="messageTitle">Що таке GoITeensLab?</h2>
                     <div className="flex-message">
                         <Image
                             className="message-image"
@@ -47,7 +47,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="messageBlock">
-                    <h1>Що таке стартап?</h1>
+                    <h2 className="messageTitle">Що таке стартап?</h2>
                     <div className="flex-message">
                         <Image
                             className="message-image"
@@ -70,7 +70,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="messageBlock">
-                    <h1>Що ми пропонуємо?</h1>
+                    <h2 className="messageTitle">Що ми пропонуємо?</h2>
                     <div className="second-flex-message">
                         <p className="message">
                             <span>#1</span> Ми пропонуємо платформу, де кожен
