@@ -1,7 +1,9 @@
 import Nav from '@/components/Nav/Nav';
+import Footer from '@/components/Footer/Footer';
 import '@/styles/Nav.css';
 import '@/styles/globals.css';
 import '@/styles/style.css';
+import '@/styles/Footer.css';
 
 export default function App({ Component, pageProps }) {
     return (
@@ -10,6 +12,7 @@ export default function App({ Component, pageProps }) {
                 <Nav />
             </header>
             <Component {...pageProps} />
+            <Footer />
         </>
     );
 }
