@@ -4,6 +4,7 @@ import '@/styles/Nav.css';
 import '@/styles/globals.css';
 import '@/styles/style.css';
 import '@/styles/Footer.css';
+import '@/styles/404.css';
 
 export default function App({ Component, pageProps }) {
     return (
